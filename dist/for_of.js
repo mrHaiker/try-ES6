@@ -12,7 +12,7 @@ try {
     for (var _iterator = browsers[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
         var browser = _step.value;
 
-        console.log(browsers);
+        console.log(browser);
     }
 } catch (err) {
     _didIteratorError = true;
