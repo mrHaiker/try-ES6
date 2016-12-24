@@ -45,7 +45,7 @@ let task = new Task('learn JS');
 let subtask = new SubTask('Learn ES6', task);
 
 console.log(SubTask.getDefaultTitle());
-console.log(SubTask.count());
+console.log(SubTask.count);
 
 task.complete();
 subtask.complete();
