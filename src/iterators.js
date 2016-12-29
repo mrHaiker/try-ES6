@@ -39,6 +39,3 @@ let idGenerator = {
     }
 };
 
-for (let id of idGenerator) {
-    console.log(id);
-}
